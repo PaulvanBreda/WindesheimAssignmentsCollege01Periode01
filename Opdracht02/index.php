@@ -16,8 +16,8 @@ $grades = [85, 92, 78, 95];
 
 // Associative array (lijst van sleutel-waardeparen)
 $studentInfo = [
-    "name" => "Paul van Breda",
-    "age" => 21,
+    "naam" => "Paul van Breda",
+    "leeftijd" => 21,
     "email" => "s1200548@student.windesheim.nl"
 ];
 
