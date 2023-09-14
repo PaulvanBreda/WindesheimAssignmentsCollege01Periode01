@@ -33,7 +33,7 @@ class Course {
 $programmingCourse = new Course();
 
 // Resource (bronhandle)
-$fileHandle = fopen("example.txt", "r");
+//$fileHandle = fopen("example.txt", "r");
 
 // Callable (aanroepbare functie)
 $functionReference = function ($x, $y) {

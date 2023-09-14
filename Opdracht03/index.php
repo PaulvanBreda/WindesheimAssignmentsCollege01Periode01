@@ -41,7 +41,7 @@ class Course {
 $programmingCourse = new Course();
 
 // Resource (bronhandle)
-$fileHandle = fopen("example.txt", "r");
+//$fileHandle = fopen("example.txt", "r");
 
 // Callable (aanroepbare functie)
 $functionReference = function ($x, $y) {
@@ -67,7 +67,7 @@ echo "<p>Adres: " . ($address === null ? "Geen adres bekend" : $address) . "</p>
 
 echo "<p>Cursusnaam: " . $programmingCourse->courseName . "</p>";
 
-echo "<p>Bestandshandle: " . get_resource_type($fileHandle) . "</p>";
+//echo "<p>Bestandshandle: " . get_resource_type($fileHandle) . "</p>";
 
 echo "<p>Callable functie: " . $functionReference(2, 3) . "</p>";
 ?>
